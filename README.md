@@ -1,0 +1,2 @@
+# typing-focus
+*For School* 
