@@ -1,0 +1,51 @@
+nav {
+    background-color: black;
+}
+
+
+
+.main {
+    height: 84px;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.table ul {
+    min-width: 700px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.table ul > li {
+    display: inline;
+}
+
+.table > * {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 24px;
+    transition: ease;
+    transition-duration: .3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    padding-bottom: 5px;
+    text-decoration-color: white ;
+
+}
+
+.mainLi {
+    font-size: 2rem;
+    margin-right: 5em;
+    font-weight: 800;
+}
