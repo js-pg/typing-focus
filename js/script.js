@@ -5,11 +5,10 @@
 const mainDiv = document.getElementById("main");
 mainDiv.style.height = (window.innerHeight)+"px";
 
-function setScrollBar(thumb, track){
-    console.log(thumb, track);
-};
 
-
+function changeTheme(targetTheme){
+    document.querySelector("link[href='u1.css']").href = "targetTheme" + ".css";
+}
 
 function scrollMain() {
     window.scroll({
