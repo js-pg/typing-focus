@@ -15,5 +15,12 @@ function scrollMain() {
     window.scroll({
         top: 94,
         behavior: 'smooth'
-    })
-}
+    });
+};
+
+function scrollAbout() {
+    window.scroll({
+        top: window.innerHeight + 94,
+        behavior: 'smooth'
+    });
+};
